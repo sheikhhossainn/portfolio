@@ -821,12 +821,26 @@ footer {
     }
     
     .experience-logo {
-        margin-right: 0;
-        margin-bottom: 15px;
+        position: static; /* Change from absolute to static positioning */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
     }
     
     .company-logo {
-        width: 120px;
+        width: 120px; /* Make the logo smaller on mobile */
+        margin: 0 auto; /* Center the logo */
+    }
+    
+    .experience-title {
+        text-align: center; /* Center the text */
+        width: 100%;
+    }
+    
+    .experience-item {
+        padding: 20px 15px; /* Adjust padding */
+        text-align: center; /* Center all content */
     }
 }
 
